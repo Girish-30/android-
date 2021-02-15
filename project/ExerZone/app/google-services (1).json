@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "5250850084",
+    "firebase_url": "https://exerzone-ef57b.firebaseio.com",
+    "project_id": "exerzone-ef57b",
+    "storage_bucket": "exerzone-ef57b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5250850084:android:bd24fd5d70693955",
+        "android_client_info": {
+          "package_name": "com.example.girish.exerzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5250850084-bifobn23lecb8gpbl2emmng0v5p8kcqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC97E4BYnecc8yhcfM09dBrSL7hI6bO9Ss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

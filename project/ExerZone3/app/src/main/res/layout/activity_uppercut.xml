@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uppercut">
+
+    <TextView
+        android:id="@+id/txtuppercut"
+        android:layout_width="176dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text=" UPPERCUT PUNCH"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imguppercut"
+        android:layout_width="378dp"
+        android:layout_height="230dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="84dp"
+        app:srcCompat="@drawable/uppercut2" />
+
+    <TextView
+        android:id="@+id/txtuppercut1"
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp"
+        android:text="The uppercut (formerly known as the undercut; sometimes also referred to as the upper) is a punch used in boxing that travels along a vertical line at the opponent's chin or solar plexus."
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Defence">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="DEFENCE"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="51dp"
+        app:srcCompat="@drawable/defence"
+        android:layout_alignParentLeft="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="231dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="229dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="To become an elite martial artist, you must be an effective defensive fighter. If you lack defensive skill, you might be able to defeat mediocre opponents, but you probably won’t get past tougher ones. If you find yourself facing a powerful puncher, rest assured he’ll be looking for a target. If your defensive skills are good, you can make it difficult for him to find that target. The following are some standard kickboxing maneuvers for defensive use:  •     Parry You deflect a technique without stopping its momentum. For example, you redirect a punch with your hand.  •     Block You stop a technique cold. You can execute a block with your arms or legs. It can be a single action or a series of measures, but regardless of the specifics, it will limit or eliminate the technique your opponent is throwing.  •     Dodge You move all or a portion of your body away from your opponent’s weapon. You need not make contact with him. Dodging an attack is better than parrying or blocking because your hands and legs remain free to counterattack.  •     Return After you execute a parry, dodge or block, you throw your own technique before your opponent has a chance to return to the guard position.  •     Rolling With the Punch To lessen the impact of a blow, you move away from your opponent’s weapon in the same direction it’s traveling.  •     Sidestep You move out of the path of the attack. One example is to pivot on one of your feet. The movement enables you to avoid his technique and retaliate."
+            android:layout_alignParentLeft="true" />
+
+    </ScrollView>
+</RelativeLayout>

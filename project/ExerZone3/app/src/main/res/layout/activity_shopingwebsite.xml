@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".shopingwebsite">
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="374dp"
+        android:layout_height="111dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/btnflip"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:onClick="flipkart"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/btnamazon"
+        android:layout_marginStart="31dp"
+        android:text="FLIPKART"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="31dp" />
+
+    <Button
+        android:id="@+id/btnamazon"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:onClick="amazon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="181dp"
+        android:layout_marginEnd="44dp"
+        android:text="AMAZON"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="44dp" />
+
+    <Button
+        android:id="@+id/btnmyntra"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnflip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnflip"
+        android:layout_marginBottom="102dp"
+        android:onClick="blitzsport"
+        android:text="blitz sport" />
+
+    <Button
+        android:id="@+id/btnsnapdeal"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:onClick="snapdeal"
+        android:layout_alignStart="@+id/btnamazon"
+        android:layout_alignTop="@+id/btnmyntra"
+        android:text="SNAP DEAL"
+        android:layout_alignLeft="@+id/btnamazon" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="330dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="SHOPPING WEBSITE"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btngoogle"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:onClick="browser1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="GOOGLE" />
+</RelativeLayout>

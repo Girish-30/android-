@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jabpunch">
+
+    <ImageView
+        android:id="@+id/imghook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:src="@drawable/jab2" />
+
+    <TextView
+        android:id="@+id/txtjab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="JAB PUNCH"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/txtjab1"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imghook"
+        android:layout_marginStart="0dp"
+        android:text="A jab is a type of punch used in the martial arts. Several variations of the jab exist, but every jab shares these characteristics: while in a fighting stance, the lead fist is thrown straight ahead and the arm is fully extended"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+</RelativeLayout>

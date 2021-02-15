@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hookpunch">
+
+
+    <TextView
+        android:id="@+id/txthook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="HOOK PUNCH"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imghook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        app:srcCompat="@drawable/hook2" />
+
+    <TextView
+        android:id="@+id/txthook1"
+        android:layout_width="365dp"
+        android:layout_height="165dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginStart="11dp"
+        android:text="A hook is a punch in boxing. It is performed by turning the core muscles and back, thereby swinging the arm, which is bent at an angle near or at 90 degrees, in a horizontal arc into the opponent. A hook is usually aimed at the jaw, but it can also be used for body shots, especially to the liver."
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+</RelativeLayout>

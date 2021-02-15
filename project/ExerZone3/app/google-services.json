@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "278140511280",
+    "firebase_url": "https://exerzone-1aca0.firebaseio.com",
+    "project_id": "exerzone-1aca0",
+    "storage_bucket": "exerzone-1aca0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278140511280:android:bd24fd5d70693955",
+        "android_client_info": {
+          "package_name": "com.example.girish.exerzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278140511280-g3lpvbivb1ub2etasrtsivsd4p0pve9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.girish.exerzone",
+            "certificate_hash": "779b836866706898b1ab70a08f300bef6bd84671"
+          }
+        },
+        {
+          "client_id": "278140511280-r19ub6jop5s4ehgjfdbcj7gb2coc7al0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCZS6w_gg9WzWtQsCewnCToIyAMhKROpI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278140511280-r19ub6jop5s4ehgjfdbcj7gb2coc7al0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

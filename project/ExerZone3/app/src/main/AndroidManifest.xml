@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.girish.exerzone">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".aboutus" />
+        <activity android:name=".Calender" />
+        <activity android:name=".Crescent" />
+        <activity android:name=".Cross" />
+        <activity android:name=".Defence" />
+        <activity android:name=".Distance" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Feinting" />
+        <activity android:name=".frontsnap" />
+        <activity android:name=".hookpunch" />
+        <activity android:name=".jabpunch" />
+        <activity android:name=".Kick" />
+        <activity android:name=".Punch" />
+        <activity android:name=".Rateus" />
+        <activity android:name=".reversecrescent" />
+        <activity android:name=".roundhouse" />
+        <activity android:name=".shopingwebsite" />
+        <activity android:name=".sidekick" />
+        <activity android:name=".Techniques" />
+        <activity android:name=".timing" />
+        <activity android:name=".uppercut" />
+        <activity android:name=".Videos"></activity>
+    </application>
+
+</manifest>

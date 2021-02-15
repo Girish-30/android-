@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Videos">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="kick boxing"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:text="karate"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button11"
+        android:text="ufc"
+        android:layout_toRightOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="11dp"
+        android:text="muay thai"
+        android:layout_marginRight="11dp"
+        android:layout_alignParentRight="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="444dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+        <Button
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="64dp"
+            android:text="play"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="132dp" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="352dp"
+            android:layout_height="269dp"
+            android:layout_below="@+id/button14"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/play1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="64dp"
+            android:text="play"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="132dp" />
+
+        <VideoView
+            android:id="@+id/videoView1"
+            android:layout_width="352dp"
+            android:layout_height="269dp"
+            android:layout_below="@+id/button14"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/play2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="72dp"
+            android:text="play" />
+
+        <VideoView
+            android:id="@+id/videoView2"
+            android:layout_width="352dp"
+            android:layout_height="269dp"
+            android:layout_below="@+id/button14"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/play3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="72dp"
+            android:text="play" />
+
+        <VideoView
+            android:id="@+id/videoView3"
+            android:layout_width="352dp"
+            android:layout_height="269dp"
+            android:layout_below="@+id/button14"
+            android:layout_centerHorizontal="true" />
+
+    </ScrollView>
+</RelativeLayout>

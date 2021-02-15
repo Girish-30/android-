@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutus">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="380dp"
+        android:layout_height="119dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/main exerzone"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/editText3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Contact :::" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="191dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Shirish talekar :: 93242 27404" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="217dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="talekar :: 81084 30428" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:layout_toEndOf="@+id/editText"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="KARATE FIGHT"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="141dp"
+        android:layout_toEndOf="@+id/editText"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="WUSHU FIGHT"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText6"
+        android:layout_marginTop="-141dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Conatct:::" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText6"
+        android:layout_below="@+id/editText6"
+        android:layout_marginEnd="-67dp"
+        android:layout_marginTop="-141dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sublaxmi ::  96199 48803" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mahesh ::::  976850 48604" />
+
+</RelativeLayout>

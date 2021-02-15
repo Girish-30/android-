@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".timing">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="TIMING"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="241dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/timing" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true" />
+
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="No offensive or defensive technique is successful without proper timing. You can have the greatest move in the world, but it won’t do any good unless your timing is on. Timing requires speed, a good sense of distance and direction. To develop your timing, stand about two feet away from your partner and slowly throw punches at him. He should utilize the various defenses described above. Continue for three minutes, then switch roles. Do two or three rounds. As you improve, pick up your speed.  This drill will also improve your reflexes and blocking skills, get you accustomed to having punches come at your face and hone your sense of direction and distance. For the best view of his entire body, watch your partner’s solar plexus, not his face."
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp" />
+    </ScrollView>
+</RelativeLayout>

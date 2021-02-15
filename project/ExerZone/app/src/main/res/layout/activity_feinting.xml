@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feinting">
+
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="FEINTING"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="223dp"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/textView20"
+        app:srcCompat="@drawable/feinting"
+        android:layout_alignParentLeft="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="284dp"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="197dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="A skilled kickboxer is like a chess player: He uses feints to set up techniques so he can easily score on his opponent. Feinting is a vital tool of deception and can be a critical weapon in your arsenal. It can keep your opponent guessing, fill him with false anticipation and disable him psychologically. For a feint to be effective, it has to be thrown convincingly and with power. Otherwise, he won’t fall for it.  Skill at feinting requires lots of practice. Here are two tactics you can add to your repertoire the next time you spar:  •     To draw your opponent’s attention to his midsection, throw a hard jab to the body. Immediately afterward, fake the same punch and throw a straight right to the chin.  •     Throw a hard jab to the face. Then feint the same motion and throw a left hook to the head."
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp" />
+    </ScrollView>
+
+</RelativeLayout>

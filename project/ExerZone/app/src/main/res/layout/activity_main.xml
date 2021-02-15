@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_warmup"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="Warm up"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/btn_tech"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginStart="-4dp"
+        android:layout_toEndOf="@+id/btn_warmup"
+        android:layout_toRightOf="@+id/btn_warmup"
+        android:background="@color/colorPrimaryDark"
+        android:text="Techniques"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btn_cal"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="calender"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_warmup"
+        android:background="@android:color/background_dark"
+        app:srcCompat="@drawable/hqdefault"
+        android:layout_alignParentLeft="true" />
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+
+        <Button
+            android:id="@+id/punch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:text="PUNCH"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="24sp"
+            app:layout_column="14"
+            app:layout_columnWeight="2"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowWeight="0" />
+
+        <Button
+            android:id="@+id/kicks"
+            android:layout_width="69dp"
+            android:layout_height="250dp"
+            android:background="@color/colorPrimary"
+            android:text="KICKS"
+            android:textSize="24sp"
+            app:layout_column="15"
+            app:layout_columnWeight="2"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+    </android.support.v7.widget.GridLayout>
+
+
+</RelativeLayout>
